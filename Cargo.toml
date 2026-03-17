@@ -1,0 +1,16 @@
+[package]
+name = "minitalk_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2"
+signal-hook = "0.3"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
