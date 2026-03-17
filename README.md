@@ -74,3 +74,11 @@ libc crate to access low-level UNIX functions (kill, signals)
 signal-hook crate to safely handle UNIX signals
 
 Atomic types (AtomicU8, AtomicUsize) to share state between signal handling and main logic
+
+## Author
+
+mleineku – 42 School Student
+
+## License
+
+This project is open-source and reusable for personal or educational purposes.**
